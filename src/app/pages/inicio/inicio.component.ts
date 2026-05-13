@@ -18,7 +18,7 @@ export class InicioComponent {
  constructor (private router: Router) {}
 
  login() {
-  if (this.usuario==='admin'  && this.password === '1234') {
+  if (this.usuario==='super'  && this.password === '1212') {
     this.error = '';
     this.router.navigate(['/contacto']);
     
